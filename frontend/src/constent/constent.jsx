@@ -45,9 +45,16 @@ export const projects = [
     title: "Student Management System",
     image: "student.png",
     frameworks: ["Java", "Intellij IDEA", "Spring Boot", "Hibernate", "Spring Security"],
-    githubLink: "https://github.com/prerith64/ecom",
+    githubLink: "https://github.com/prerith64/academic-project",
     desc: "A comprehensive system for managing student records including attendance, marks, and profiles. Built using Spring Boot, secured with Spring Security, and backed by Hibernate ORM."
-  }
+  },
+    {
+      title:"E-commerce Microservices System",
+      image:"ecom-micro.png",
+      frameworks:["Java","Spring Boot","Hibernate","Spring Cloud","Eureka","Rabbit MQ","AWS S3","Docker"],
+      githubLink:"https://github.com/prerith64/ecom-microservice",
+      desc:"Developed a scalable E-commerce platform using Spring Boot microservices with secure authentication via Spring Security and JWT. Integrated PostgreSQL, MySQL, and JPA/Hibernate for database management across services. Utilized Eureka, Spring Cloud Gateway for service discovery, and RabbitMQ for asynchronous communication. Implemented Stripe for payments, Amazon S3 for image storage, and Docker for containerization."
+    }
 ];
 
 
